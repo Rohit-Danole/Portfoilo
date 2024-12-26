@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+}
+
+section {
+    padding: 60px 0;
+}
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.progress-bar {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    transition: width 0.5s;
+}
+.skills:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+button a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+button a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-whatsapp
+{
+    background: #25d366;
+    color: white;
+}
+.fa-instagram {
+    background: radial-gradient(circle at 30% 110%,
+    #ffdb8b 0%,
+    #ee653d 25%,
+    #d42e81 50%,
+    #a237b6 75%,
+    #3e57bc 100%);;
+    color: white;
+  }
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 25px 25px;
+    text-align: center;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .material-icons {
+    padding: 10px;
+    font-size: 10px;
+    width: 25px 25px;
+    text-align: center;
+  }
+  
+  .material-icons:hover {
+      opacity: 0.7;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; 
+  }
+  
+  .contact-item span {
+    margin-left: 5px; 
+  }
